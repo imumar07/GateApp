@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">gateApp</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="todo_app">Todo App</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome_to_sign_in">Welcome to Register</string>
+    <string name="hello_user">Hello User</string>
+    <string name="already_registered_sign_in">Already Registered? Sign in</string>
+    <string name="add_details_here">Add details Here</string>
+    <string name="enter_name">Enter name</string>
+    <string name="add_details">Add details</string>
+    <string name="today_entries_are">Today entries are</string>
+</resources>

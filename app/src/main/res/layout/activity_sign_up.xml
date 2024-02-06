@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/welcome_to_sign_in"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/shapes"
+        android:gravity="center"
+        android:hint="@string/enter_email"
+
+        android:inputType="textEmailAddress"
+        android:minWidth="300dp"
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/shapes"
+        android:gravity="center"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:minWidth="300dp"
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/passwordReenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/shapes"
+        android:gravity="center"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:minWidth="300dp"
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordReenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/sign_up"
+        android:minWidth="200dp"
+        android:textColor="@android:color/white"/>
+
+<TextView
+    android:id="@+id/anchorSignIn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/already_registered_sign_in"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_below="@id/button2"
+    />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+</RelativeLayout>

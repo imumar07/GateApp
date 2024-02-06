@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776100536640",
+    "project_id": "gateapp-928f2",
+    "storage_bucket": "gateapp-928f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776100536640:android:04d4739cc24ec3db645aa5",
+        "android_client_info": {
+          "package_name": "com.example.gateapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcl6ZCoZ_qX4I2b6r-MX8zAFFt6urDH7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
